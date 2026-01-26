@@ -9,9 +9,28 @@
 
     /*mobile*/
 
-    .body {
+    body {
         margin: 0;
         padding: 0;
+        color:#991a40;
+        font-family: avenir next lt pro;
+    }
+
+    h1, h2, p {
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        font-family: academy engraved let;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    h2 {
+        font-family: academy engraved let;
+        font-size: 90px;
+        font-weight: 200;
     }
     
     .orange {
@@ -22,23 +41,26 @@
      .paleyellow1 {
         background-color:#fff8ea ;
         height: 30px;
+        text-align: center;
     }
 
     .pink {
         height: 500px;
         background-color: #f6a8c5;
+        text-align: center;
     }
 
     .paleyellow2 {
         background-color:#fff8ea ;
         height: 30px;
+       
     }
     
 
     .palepink {
-        height: 3500px;
+        height: 3850px;
         background-color: #fdeef5;
-
+        text-align: center;
     }
 
     .paleyellow3 {
@@ -49,6 +71,7 @@
     .offwhite {
         height: 700px;
         background-color: #ffff;
+        text-align: center;
     }
 
      .paleyellow4 {
@@ -59,8 +82,72 @@
     .pink2 {
         height: 900px;
         background-color: #f6a8c5;
+        text-align: center;
 
     }
+
+    .Blockthing {
+        width: 550px;
+        height: 100px;
+        background-color: #fff8ea;
+        text-align: center;
+        
+    }
+
+img {
+    width: 300px;
+    height: auto;
+    padding: 40px;
+}
+
+
+
+/* Desktop / wider screens (300px and up) */
+@media (min-width: 300px) {
+  /* center page and remove side whitespace on larger screens */
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #991a40;
+  }
+
+  /* tighter control of heading spacing for desktop */
+  h1 {
+    font-size: 72px;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 48px;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  p {
+    padding: 8px 0 16px 0;
+  }
+
+  /* make section blocks use internal padding instead of large fixed heights */
+  .pink, .palepink, .offwhite, .pink2 {
+    padding: 40px;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .Blockthing {
+    width: 100%;
+    max-width: 700px;
+    margin: 16px 0;
+    padding: 16px;
+  }
+  
+}
+</style>
+
+
 
 </style>
 
@@ -69,21 +156,51 @@
 
     <div class="orange"></div>
 
-    <div class="paleyellow1"></div>
+    <div class="paleyellow1"> Portfolio last updated: January 28, 2026</div>
 
-    <div class="pink"></div>
+    <div class="pink"> <h1>Portfolio of Art and Design </h1>by Avery Findley</div>
 
     <div class="paleyellow2"></div>
-
-    <div class="palepink"></div>
+    
+    <div class="palepink"> 
+        <h2>Moodboards</h2>
+            <p>A collection of moodboards I have put together based on an array of prompts or commissions</p>
+                <img src="images/IMG_2928.JPG" alt="">
+                <img src="images/IMG_2898.JPG" alt="">
+                <img src="images/IMG_2939.JPG" alt="">
+                <img src="images/IMG_2938.JPG" alt="">
+                <img src="images/IMG_2943.JPG" alt="">
+                <img src="images/IMG_2897.JPG" alt="">
+        </div>
 
     <div class="paleyellow3"></div>
 
-    <div class="offwhite"></div>
+    <div class="offwhite">
+            <h2>Logo Designs</h2>
+
+        
+
+
+
+
+    </div>
 
     <div class="paleyellow4"></div>
 
-    <div class="pink2"></div>
-    
+    <div class="pink2"><h2>Poster Designs</h2>
+
+
+
+
+
+     <div class="Blockthing">The previous is a poster set I created for an awareness project. I wanted to created a hero-villian 
+        dynamic between two characters, so I created Paula and her nephew Spencer. 
+        I wanted the colors and lighting to contrast significantly, while elements of the style 
+        remained consistent thoughout both peices.</div>
+    </div>
+
+   
+
+   
 </body>
 </html>

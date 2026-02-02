@@ -23,13 +23,13 @@
 
     h1 {
         font-family: academy engraved let;
-        font-size: 40px;
+        font-size: 65px;
         font-weight: 300;
     }
 
     h2 {
         font-family: academy engraved let;
-        font-size: 90px;
+        font-size: 65px;
         font-weight: 200;
     }
     
@@ -45,7 +45,7 @@
     }
 
     .pink {
-        height: 500px;
+        
         background-color: #f6a8c5;
         text-align: center;
     }
@@ -91,22 +91,22 @@
         height: 100px;
         background-color: #fff8ea;
         text-align: center;
-        
+        display: flex;
+        padding: 10px;
     }
 
 img {
     width: 300px;
     height: auto;
-    padding: 40px;
+    padding: 0px;
 }
 
 
 
 /* Desktop / wider screens (300px and up) */
-@media (min-width: 300px) {
+@media (min-width: 600px) {
   /* center page and remove side whitespace on larger screens */
   body {
-    max-width: 1100px;
     margin: 0 ;
     padding: 0px;
     font-size: 18px;
@@ -139,8 +139,12 @@ img {
     text-align: center;
   }
 
+  .centerBlockThing {
+    display: flex;
+    justify-content: center;
+  }
+
   .Blockthing {
-    width: 100%;
     max-width: 700px;
     margin: 16px 0;
     padding: 16px;
@@ -148,7 +152,9 @@ img {
     justify-content: center;
   }
   
-
+  img {
+    padding: 40px;
+  }
 
 }
 </style>
@@ -164,7 +170,15 @@ img {
 
     <div class="paleyellow1"> Portfolio last updated: January 28, 2026</div>
 
-    <div class="pink"> <h1>Portfolio of Art and Design </h1>by Avery Findley</div>
+    <div class="pink"> <h1>Portfolio of Art and Design </h1>by Avery Findley
+    
+    <div>
+        <img src="/images/Hehehe 2026-02-02 at 11.11.32 AM.png" alt="">
+    </div>
+    
+    
+    
+    </div>
 
     <div class="paleyellow2"></div>
     
@@ -201,11 +215,12 @@ img {
             <img src="/images/paula.jpg" alt="" width="150px" height="100px">
             <img src="/images/spencer.jpg" alt="">
         
-
-     <div class="Blockthing">The previous is a poster set I created for an awareness project. I wanted to created a hero-villian 
-        dynamic between two characters, so I created Paula and her nephew Spencer. 
-        I wanted the colors and lighting to contrast significantly, while elements of the style 
-        remained consistent thoughout both peices.</div>
+        <div class="centerBlockThing">
+            <div class="Blockthing">The previous is a poster set I created for an awareness project. I wanted to created a hero-villian 
+                dynamic between two characters, so I created Paula and her nephew Spencer. 
+                I wanted the colors and lighting to contrast significantly, while elements of the style 
+                remained consistent thoughout both peices.</div>
+        </div>
     </div>
 
    
